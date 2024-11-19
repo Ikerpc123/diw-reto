@@ -1,0 +1,86 @@
+/*
+    Colores de la página "GoNorte"
+*/
+
+:root{
+    --color-principal : #1F618D;
+    --color-secundario : #5DADE2;
+    --color-terciario : #16A085;
+    --color-fondo : #E5E8E8;
+    --blanco : white;
+}
+
+/*
+    Estilos del body
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: var(--color-fondo);
+}
+
+/*
+    Estilos de la barra de navegación
+*/
+
+header {
+    background-color: var(--color-principal);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+nav a {
+    color: var(--blanco);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/*
+    Estilos del footer
+*/
+
+footer {
+    background-color: var(--color-principal);
+    padding: 20px;
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/*
+    Estilos de la pagina de contacto
+*/
+
+
+/*
+    Estilos ha quitar
+*/
+
+div{
+    border: 2px solid black;
+}
