@@ -1,9 +1,3 @@
-# Proyecto de Desarrollo de Interfaces. Primera Evaluación
+# Rama de la página de contacto
 
-Se trabajará por ramas, en cada rama principal habrá un sitio web con sus 5 páginas. Los nombres de las ramas principales seran:
-- ``main`` esta rama no se editara en ningun momento.
-- ``goNorte``
-- ``goSur``
-- ``goEste``
-- ``goOeste``
-- ``goFast``
+Esta rama será mergeada con los colores especificos de cada restaurante.
