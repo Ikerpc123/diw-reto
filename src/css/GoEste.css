@@ -3,11 +3,11 @@
 */
 
 :root {
-    --color-principal: #34495E;
-    --color-secundario: #1ABC9C;
-    --color-terciario: #A6B853;
-    --color-fondo: #F4D03F;
-    --blanco: white;
+    --color-principal: #7D8B24;
+    --color-secundario: #B7B1A1;
+    --color-terciario: #C5A30E;
+    --color-fondo: #D07C45;
+    --blanco: #C6A35A;
     --gris: #7D7D7D;
     --sombra: rgba(0, 0, 0, 0.1);
 }
