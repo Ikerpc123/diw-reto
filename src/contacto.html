@@ -7,13 +7,13 @@
     <link rel="stylesheet" href="css/contacto.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <link rel="icon" href="/images/favicon.ico" type="image/x-icon">
-    <title>Contacto</title>
+    <link rel="icon" href="media/LogoNorte.png" type="image/x-icon">
+    <title>Contacto | GoNorte</title>
 </head>
 <body>
     <header>
         <div class="logo-container">
-            <img src="/images/logo.png" alt="Logo GoNorte" class="logo">
+            <img src="media/LogoNorte.png" alt="Logo GoNorte" class="logo">
             <h1 class="site-title">GoNorte</h1>
         </div>
         <nav>
@@ -22,47 +22,52 @@
                 <li><a href="#">Carta</a></li>
                 <li><a href="#">¿Dónde estamos?</a></li>
                 <li><a href="#">Noticias</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#" class="active">Contacto</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div id="formulario">
+        <section id="formulario">
             <h2>Ponte en contacto con nosotros</h2>
             <form>
-                <label for="nombre">Nombre (obligatorio)</label><br>
-                <input type="text" id="nombre" name="nombre" required><br><br>
-
-                <label for="email">Correo electrónico (obligatorio)</label><br>
-                <input type="email" id="email" name="email" required><br><br>
-
-                <label for="fecha">Fecha (AAAA-MM-DD) (obligatorio)</label><br>
-                <input type="date" id="fecha" name="fecha" required><br><br>
-
-                <label for="mensaje">Mensaje</label><br>
-                <textarea id="mensaje" name="mensaje"></textarea><br><br>
-
-                <button type="submit">Enviar</button>
+                <div class="form-group">
+                    <label for="nombre">Nombre (obligatorio)</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Correo electrónico (obligatorio)</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha y Hora (AAAA-MM-DD) (obligatorio)</label>
+                    <input type="datetime" id="fecha" name="fecha" required>
+                </div>
+                <div class="form-group">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="4"></textarea>
+                </div>
+                <button type="submit" class="btn-enviar">Enviar</button>
             </form>
-        </div>
-        <div id="otros">
-            <h3>Otros restaurantes que recomendamos son:</h3>
+        </section>
+        <section id="otros">
+            <h3>Otros restaurantes que recomendamos:</h3>
             <ul>
-                <li>Restaurante 1</li>
-                <li>Restaurante 2</li>
-                <li>Restaurante 3</li>
+                <li><a>GoSur</a></li>
+                <li><a>GoMediterraneo</a></li>
+                <li><a>GoEste</a></li>
+                <li><a>GoFast</a></li>
             </ul>
-        </div>
-        <div id="divider"></div>
+        </section>
     </main>
     <footer>
-        <p>lunes - viernes, 7am - 4pm</p>
-        <p>123 Calle Ejemplo, San Francisco, CA</p>
-        <p>(123) 456-7890</p>
-        <div>
-            <a href="#"><img src="images/facebook-icon.png" alt="Facebook"></a>
-            <a href="#"><img src="images/twitter-icon.png" alt="Twitter"></a>
-            <a href="#"><img src="images/instagram-icon.png" alt="Instagram"></a>
+        <div class="footer-container">
+            <p class="address">123 Calle Ejemplo, San Francisco, CA</p>
+            <p class="phone">+34 634 23 36 87</p>
+            <div class="social-icons">
+                <a href="#"><img src="media/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="media/x.png" alt="X"></a>
+                <a href="#"><img src="media/instagram.png" alt="Instagram"></a>
+            </div>
         </div>
     </footer>
 </body>
