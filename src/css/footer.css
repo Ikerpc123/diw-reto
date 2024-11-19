@@ -1,0 +1,17 @@
+/*
+    Estilos del footer
+*/
+
+footer {
+    background-color: var(--color-principal);
+    padding: 20px;
+    color: var(--blanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}

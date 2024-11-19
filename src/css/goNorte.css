@@ -1,0 +1,11 @@
+/*
+    Colores de la página "GoNorte"
+*/
+
+:root{
+    --color-principal : #1F618D;
+    --color-secundario : #5DADE2;
+    --color-terciario : #16A085;
+    --color-fondo : #E5E8E8;
+    --blanco : white;
+}
