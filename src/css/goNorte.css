@@ -10,6 +10,7 @@
     --blanco: white;
     --gris: #7D7D7D;
     --sombra: rgba(0, 0, 0, 0.1);
+    --hover-boton: #127964;
 }
 
 body {
@@ -26,5 +27,15 @@ h2, h3 {
 }
 
 button {
+    background-color: var(--color-terciario);
+    color: var(--blanco);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
     cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: var(--hover-boton);
 }
