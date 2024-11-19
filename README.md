@@ -11,3 +11,11 @@ Se trabajará por ramas, en cada rama principal habrá un sitio web con sus 5 p�
 ## Componentes compartidos
 
 Todas las páginas serán iguales entre si, lo único que cambia son los colores. Además, con un único diseño de footer y barra de navegacion sobra, tambien son iguales en todas las páginas  
+
+## División de páginas web
+
+- Index -> Iker
+- Menu -> Pelayo
+- Noticias
+- Localización
+- Contacto -> Álvaro
