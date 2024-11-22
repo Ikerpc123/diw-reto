@@ -26,11 +26,20 @@ main {
 }
 
 .map-container {
-  width: 100%;
-  max-width: 600px;
-  margin: 0 auto;
+  width: 600px; /* Tamaño del mapa */
+  height: 450px; /* Tamaño del mapa */
+  margin: 0 auto; /* Centrado horizontal */
   border: 2px solid var(--color-secundario);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.map-container iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 /* Otros restaurantes */
@@ -44,6 +53,6 @@ main {
   box-shadow: 0 4px 6px var(--sombra);
 }
 
-#otros h3{
+#otros h3 {
   color: var(--color-secundario);
 }
