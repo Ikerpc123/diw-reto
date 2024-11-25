@@ -10,6 +10,7 @@
     --blanco: #C6A35A;
     --gris: #7D7D7D;
     --sombra: rgba(0, 0, 0, 0.1);
+    --hover-boton: #58611b;
 }
 
 body {
