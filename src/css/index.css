@@ -91,7 +91,11 @@
 }
 
 .menu-header {
+<<<<<<< HEAD
     background-color: var(--color-secundario);
+=======
+    background-color: var(--color-principal);
+>>>>>>> Preparacion-de-localizacion
     color: var(--blanco);
     padding: 10px 15px;
     border-radius: 5px;
@@ -106,8 +110,13 @@
 }
 
 .menu-card button {
+<<<<<<< HEAD
     background-color: var(--color-terciario);
     color: black;
+=======
+    background-color: var(--color-principal);
+    color: var(--blanco);
+>>>>>>> Preparacion-de-localizacion
     border: none;
     border-radius: 5px;
     padding: 10px 15px;
