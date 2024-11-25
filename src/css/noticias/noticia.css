@@ -1,0 +1,31 @@
+.noticia{
+    background: var(--blanco);
+    margin: 25px auto;
+    padding: 0;
+    width: 80%;
+    max-width: 95%;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px var(--sombra);
+    border: 2px solid var(--color-terciario);
+    overflow: hidden;
+    padding: 5px;
+}
+
+#titulo{
+    margin: auto;
+    font-size: 30px;
+    width: fit-content;
+}
+
+.imagennoticia {
+    width: 100%; 
+    max-height: 300px;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+#pie{
+    float: right;
+    font-size: 10px;
+}

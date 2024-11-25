@@ -8,15 +8,17 @@
     box-shadow: 0 4px 6px var(--sombra);
 }
 
-.divisor{
+.divisor {
     border: 2px solid var(--color-principal);
     width: 50%;
+    margin: 0 auto;
 }
 
 #tituloNoticias{
+    margin: auto;
     width: fit-content;
     color: var(--color-principal);
-    display: flex;
+    font-size: 30px;
 }
 
 input {
@@ -36,13 +38,14 @@ input {
 .noticia{
     background: var(--blanco);
     margin: 25px auto;
-    margin-bottom: 50px;
-    padding: 20px;
+    padding: 0;
     width: 80%;
     max-width: 75%;
     border-radius: 10px;
     box-shadow: 0 4px 6px var(--sombra);
     border: 2px solid var(--color-terciario);
+    overflow: hidden;
+    padding: 5px;
 }
 
 .noticia button {
@@ -55,3 +58,10 @@ input {
     transition: background-color 0.3s ease;
 }
 
+.imagennoticia {
+    width: 100%; 
+    height: auto;
+    display: block;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
