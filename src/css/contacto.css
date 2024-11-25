@@ -52,3 +52,12 @@ button.btn-enviar:hover {
     border-radius: 10px;
     box-shadow: 0 4px 6px var(--sombra);
 }
+
+#fechaHora_id{
+    display: flex;
+    gap: 27px;
+}
+
+.fechaHora{
+    width: 45%;
+}
