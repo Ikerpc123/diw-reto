@@ -21,20 +21,6 @@
     font-size: 30px;
 }
 
-input {
-    width: 90%;
-    padding: 10px;
-    border: 1px solid var(--gris);
-    border-radius: 5px;
-}
-
-.listanoticias{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-gap: 10px;
-    grid-auto-rows: minmax(100px, auto);
-}
-
 .noticia{
     background: var(--blanco);
     margin: 25px auto;
