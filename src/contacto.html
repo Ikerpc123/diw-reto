@@ -14,7 +14,7 @@
     <header>
         <div class="logo-container">
             <img src="media/LogoNorte.png" alt="Logo GoNorte" class="logo">
-            <h1 class="site-title">GoNorte</h1>
+            <h1 class="site-title">Go Norte</h1>
         </div>
         <nav>
             <ul>
@@ -31,37 +31,49 @@
             <h2>Ponte en contacto con nosotros</h2>
             <form>
                 <div class="form-group">
-                    <label for="nombre">Nombre (obligatorio)</label>
+                    <label for="nombre">Nombre*</label>
                     <input type="text" id="nombre" name="nombre" required>
                 </div>
                 <div class="form-group">
-                    <label for="email">Correo electrónico (obligatorio)</label>
+                    <label for="email">Correo electrónico*</label>
                     <input type="email" id="email" name="email" required>
                 </div>
+                <div class="form-group" id="fechaHora_id">
+                    <div class="fechaHora">
+                        <label for="fecha">Fecha*</label>
+                        <input type="date" id="fecha" name="fecha" required>
+                    </div>
+
+                    <div class="fechaHora">
+                        <label for="time">Hora*</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+                </div>
+                
                 <div class="form-group">
-                    <label for="fecha">Fecha y Hora (AAAA-MM-DD) (obligatorio)</label>
-                    <input type="datetime" id="fecha" name="fecha" required>
+                    <label for="comensales">Numero de comensales*</label>
+                    <input type="number" id="comensales" name="comensales" required>
                 </div>
                 <div class="form-group">
-                    <label for="mensaje">Mensaje</label>
+                    <label for="mensaje">Información extra a añadir</label>
                     <textarea id="mensaje" name="mensaje" rows="4"></textarea>
                 </div>
                 <button type="submit" class="btn-enviar">Enviar</button>
             </form>
         </section>
         <section id="otros">
-            <h3>Otros restaurantes que recomendamos:</h3>
+            <h3>Datos del Restaurante</h3>
             <ul>
-                <li><a>GoSur</a></li>
-                <li><a>GoMediterraneo</a></li>
-                <li><a>GoEste</a></li>
-                <li><a>GoFast</a></li>
+                <li><a><strong>Teléfono de contacto:</strong> +34 653 33 42 12</a></li>
+                <li><a><strong>Email del restaurante:</strong> goNorte@goRestaurantes.com</a></li>
+                <li><a><strong>Instagram del restaurante:</strong>@GoNorte</a></li>
+                <li><a><strong>Direccción:</strong> Av/Pablo Iglesias 6</a></li>
             </ul>
         </section>
     </main>
     <footer>
         <div class="footer-container">
-            <p class="address">123 Calle Ejemplo, San Francisco, CA</p>
+            <p class="address">Av/Pablo Iglesias 6</p>
             <p class="phone">+34 634 23 36 87</p>
             <div class="social-icons">
                 <a href="#"><img src="media/facebook.png" alt="Facebook"></a>
