@@ -3,36 +3,36 @@
 */
 
 header {
-    background-color: var(--color-principal);
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: var(--color-principal);
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .logo-container {
-    display: flex;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .logo {
-    height: 100px;
-    width: auto;
+  height: 100px;
+  width: auto;
 }
 
 nav ul {
-    display: flex;
-    gap: 20px;
-    list-style: none;
+  display: flex;
+  gap: 20px;
+  list-style: none;
 }
 
 nav a {
-    color: var(--blanco);
-    text-decoration: none;
-    font-weight: bold;
+  color: var(--blanco);
+  text-decoration: none;
+  font-weight: bold;
 }
 
 nav a:hover {
-    color: lightgray;
+  color: lightgray;
 }
