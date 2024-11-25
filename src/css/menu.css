@@ -1,19 +1,4 @@
-:root { 
-    --color-principal: #c5da41;
-    --color-secundario: #8cbf1c;
-    --color-secundario-oscuro: #6aa31c;
-    --color-fondo-claro: #f9f9f9;
-    --color-fondo-dos: #e4e4e4;
-    --color-fondo-descripcion: rgba(0, 0, 0, 0.85);
-    --color-texto-blanco: #fff;
-    --color-sombra: rgba(0, 0, 0, 0.3);
-    --color-sombra-hover: rgba(0, 0, 0, 0.5);
-    --color-hover-texto: #fff;
-    --color-hover-fondo: var(--color-secundario-oscuro);
-    --color-texto-descripcion: rgba(255, 255, 255, 0.9);
-    --fuente-principal: 'Poppins', sans-serif;
-    --fuente-secundaria: 'Roboto', sans-serif;
-}
+
 
 #carta {
     text-align: center;
@@ -69,7 +54,7 @@
     max-width: 320px;
     border-radius: 20px;
     overflow: hidden;
-    box-shadow: 0 12px 30px var(--color-sombra);
+    box-shadow: 0 12px 30px var(--color-principal);
     background: var(--color-texto-blanco);
     cursor: pointer;
     transform: scale(0.98);
@@ -91,7 +76,7 @@
 
 @keyframes glowEffect {
     0% {
-        box-shadow: 0 12px 30px var(--color-sombra);
+        box-shadow: 0 12px 30px var(--color-principal);
     }
     100% {
         box-shadow: 0 15px 40px var(--color-secundario);
@@ -100,7 +85,7 @@
 
 .catalogo .item:hover {
     transform: translateY(-15px) scale(1.1);
-    box-shadow: 0 25px 45px var(--color-sombra-hover);
+    box-shadow: 0 25px 45px var(--color-principal);
     filter: brightness(1.2);
 }
 
@@ -139,7 +124,7 @@
 }
 
 .catalogo .item:hover p {
-    background: linear-gradient(to right, var(--color-secundario), var(--color-secundario-oscuro));
+    background: linear-gradient(to right, var(--color-terciario), var(--color-principal));
     transform: translateY(-10px);
 }
 
