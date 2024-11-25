@@ -1,117 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inicio | GoNorte</title>
-    <link rel="stylesheet" href="css/index.css">
-    <link rel="stylesheet" href="css/goNorte.css">
-    <link rel="stylesheet" href="css/contacto.css">
-    <link rel="stylesheet" href="css/nav.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="icon" href="media/LogoNorte.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/goNorte.css" />
+    <link rel="stylesheet" href="css/contacto.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="icon" href="media/LogoNorte.png" type="image/x-icon" />
     <script src="js/index.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="logo-container">
-            <img src="media/LogoNorte.png" alt="Logo GoNorte" class="logo">
-            <h1 class="site-title">GoNorte</h1>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Inicio</a></li>
-                <li><a href="#">Carta</a></li>
-                <li><a href="#">¿Dónde estamos?</a></li>
-                <li><a href="#">Noticias</a></li>
-                <li><a href="contacto.html">Contacto</a></li>
-            </ul>
-        </nav>
+      <div class="logo-container">
+        <img src="media/LogoNorte.png" alt="Logo GoNorte" class="logo" />
+        <h1 class="site-title">GoNorte</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#">Carta</a></li>
+          <li><a href="localizacion.html">¿Dónde estamos?</a></li>
+          <li><a href="#">Noticias</a></li>
+          <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
 
     <section class="hero">
-        
-        <div class="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="media/fabada.jpg" alt="Plato de comida 1">
-              </div>
-              <div class="carousel-item">
-                <img src="media/pulpo.jpg" alt="Plato de comida 2">
-              </div>
-              <div class="carousel-item">
-                <img src="media/quesada.jpg" alt="Plato de comida 3">
-              </div>
-              <div class="carousel-item">
-                <img src="media/bacalao.jpg" alt="Plato de comida 4">
-              </div>
-            </div>
-            <!-- Controles -->
-            <button class="carousel-control prev" onclick="moveSlide(-1)">&#10094;</button>
-            <button class="carousel-control next" onclick="moveSlide(1)">&#10095;</button>
+      <div class="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="media/fabada.jpg" alt="Plato de comida 1" />
           </div>
+          <div class="carousel-item">
+            <img src="media/pulpo.jpg" alt="Plato de comida 2" />
+          </div>
+          <div class="carousel-item">
+            <img src="media/quesada.jpg" alt="Plato de comida 3" />
+          </div>
+          <div class="carousel-item">
+            <img src="media/bacalao.jpg" alt="Plato de comida 4" />
+          </div>
+        </div>
+        <!-- Controles -->
+        <button class="carousel-control prev" onclick="moveSlide(-1)">
+          &#10094;
+        </button>
+        <button class="carousel-control next" onclick="moveSlide(1)">
+          &#10095;
+        </button>
+      </div>
     </section>
 
     <section class="menu-info">
-        <div class="menu-card">
-            <div class="menu-header">
-                <h2>A la Carta</h2>
-            </div>
-            <p>
-                Tenemos a disposición una amplia y variada carta de platos, desde los más tradicionales de la región hasta los más innovadores y exóticos. 
-                Nuestra selección incluye entradas, platos fuertes y postres, todos preparados con los ingredientes más frescos y de la mejor calidad. 
-            </p>
-            <p>
-                Déjate sorprender por nuestras especialidades que combinan tradición y modernidad, creadas por un equipo de chefs apasionados por la excelencia gastronómica.
-            </p>
-            <button onclick="window.location.href='#'">Descubre más</button>
+      <div class="menu-card">
+        <div class="menu-header">
+          <h2>A la Carta</h2>
         </div>
-        <div class="menu-card">
-            <div class="menu-header">
-                <h2>¿Dónde estamos?</h2>
-            </div>
-            <div class="map-container">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d645.2840331652534!2d-5.613347328889619!3d43.52472538287814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367b1a1e3c01c1%3A0x5e580d218da8a032!2sC.%20Luis%20Moya%20Blanco%2C%20335%2C%20Periurbano%20-%20Rural%2C%2033394%20Gij%C3%B3n%2C%20Asturias!5e1!3m2!1ses!2ses!4v1732014415881!5m2!1ses!2ses" 
-                    width="100%" 
-                    height="200" 
-                    style="border:0;" 
-                    allowfullscreen="" 
-                    loading="lazy" 
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-                <button onclick="window.location.href='contacto.html'">Más restaurantes</button>
-            </div>
+        <p>
+          Tenemos a disposición una amplia y variada carta de platos, desde los
+          más tradicionales de la región hasta los más innovadores y exóticos.
+          Nuestra selección incluye entradas, platos fuertes y postres, todos
+          preparados con los ingredientes más frescos y de la mejor calidad.
+        </p>
+        <p>
+          Déjate sorprender por nuestras especialidades que combinan tradición y
+          modernidad, creadas por un equipo de chefs apasionados por la
+          excelencia gastronómica.
+        </p>
+        <button onclick="window.location.href='#'">Descubre más</button>
+      </div>
+      <div class="menu-card">
+        <div class="menu-header">
+          <h2>¿Dónde estamos?</h2>
         </div>
+        <div class="map-container">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d687.2258424106677!2d-5.644846130372929!3d43.54410329819423!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd367b87757394e5%3A0xa7fed814b7094449!2sAv.%20de%20Jos%C3%A9%20Garc%C3%ADa%20Bernardo%2C%20470%2C%20Periurbano%20-%20Rural%2C%2033203%20Gij%C3%B3n%2C%20Asturias!5e1!3m2!1ses!2ses!4v1732534556501!5m2!1ses!2ses"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <button onclick="window.location.href='contacto.html'">
+            Más restaurantes
+          </button>
+        </div>
+      </div>
     </section>
-    
-    
-    
 
     <section class="news">
-        <div class="news-card">
-            <h3>Nueva incorporación a nuestra carta: Sabores de temporada</h3>
-            <p>Descubre los nuevos platos que hemos incorporado a nuestra carta, inspirados en los sabores de la temporada. Desde creaciones innovadoras hasta reinterpretaciones de clásicos 
-                del norte, cada plato está diseñado para deleitar tu paladar. ¡Ven a probarlos antes de que termine la temporada!</p>
-            <a href="#">Leer noticia</a>
-        </div>
-        <div class="news-card">
-            <h3>Ganamos el premio al mejor restaurante de la región</h3>
-            <p>Nos enorgullece anunciar que hemos sido galardonados con el premio al mejor restaurante de la región en el certamen gastronómico anual. Este logro es gracias a nuestros talentosos
-                 chefs, equipo y, sobre todo, a nuestros clientes que nos apoyan día a día.</p>
-            <a href="#">Leer noticia</a>
-        </div>
+      <div class="news-card">
+        <h3>Nueva incorporación a nuestra carta: Sabores de temporada</h3>
+        <p>
+          Descubre los nuevos platos que hemos incorporado a nuestra carta,
+          inspirados en los sabores de la temporada. Desde creaciones
+          innovadoras hasta reinterpretaciones de clásicos del norte, cada plato
+          está diseñado para deleitar tu paladar. ¡Ven a probarlos antes de que
+          termine la temporada!
+        </p>
+        <a href="#">Leer noticia</a>
+      </div>
+      <div class="news-card">
+        <h3>Ganamos el premio al mejor restaurante de la región</h3>
+        <p>
+          Nos enorgullece anunciar que hemos sido galardonados con el premio al
+          mejor restaurante de la región en el certamen gastronómico anual. Este
+          logro es gracias a nuestros talentosos chefs, equipo y, sobre todo, a
+          nuestros clientes que nos apoyan día a día.
+        </p>
+        <a href="#">Leer noticia</a>
+      </div>
     </section>
 
     <footer>
-        <div class="footer-container">
-            <p class="address">123 Calle Ejemplo, San Francisco, CA</p>
-            <p class="phone">+34 634 23 36 87</p>
-            <div class="social-icons">
-                <a href="#"><img src="media/facebook.png" alt="Facebook"></a>
-                <a href="#"><img src="media/x.png" alt="X"></a>
-                <a href="#"><img src="media/instagram.png" alt="Instagram"></a>
-            </div>
+      <div class="footer-container">
+        <p class="address">
+          Av. de José García Bernardo, 470, Periurbano - Rural, 33203 Gijón,
+          Asturias
+        </p>
+        <p class="phone">+34 634 23 36 87</p>
+        <div class="social-icons">
+          <a href="#"><img src="media/facebook.png" alt="Facebook" /></a>
+          <a href="#"><img src="media/x.png" alt="X" /></a>
+          <a href="#"><img src="media/instagram.png" alt="Instagram" /></a>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
