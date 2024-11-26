@@ -1,0 +1,164 @@
+/*
+    Estilos de la pagina inicial
+*/
+
+/*
+    Estilos del carrusel de platos
+*/
+
+.hero{
+    padding-bottom: 50px;
+    padding-top: 50px;
+    background-color: var(--color-fondo);
+}
+
+.carousel {
+    position: relative;
+    width: 70%;
+    max-width: 900px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: auto;
+    aspect-ratio: 16/9;
+}
+
+  
+.carousel-inner {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+  
+.carousel-item {
+    min-width: 100%;
+    transition: opacity 0.5s ease-in-out;
+    justify-content: center;
+    align-items: center;
+}
+  
+.carousel-item img {
+    width: 100%;
+    display: block;
+    object-fit: cover;
+    display: block;
+}
+  
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 50%;
+    z-index: 1000;
+}
+  
+.carousel-control.prev {
+    left: 5px;
+}
+  
+.carousel-control.next {
+    right: 10px;
+}
+
+
+/*
+    Estilos de la sección de menú (`A la carta` y `Donde estamos`)
+*/
+.menu-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 40px 20px;
+    background-color: var(--color-fondo);
+    box-sizing: border-box;
+    width: 100%; 
+}
+
+.menu-card {
+    background-color: var(--blanco);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1; 
+    max-width: 50%;
+}
+
+.menu-header {
+    background-color: var(--color-principal);
+    color: var(--blanco);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.menu-header h2{
+    color: var(--blanco);
+}
+
+.menu-card button {
+    background-color: var(--color-terciario);
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu-card button:hover {
+    background-color: var(--hover-boton);
+}
+
+.map-container iframe {
+    border-radius: 10px;
+    width: 100%; 
+    height: 200px;
+}
+
+@media (max-width: 768px) {
+    .menu-info {
+        flex-direction: column;
+    }
+    .menu-card {
+        max-width: 100%;
+    }
+}
+
+/*
+    Estilos de la sección de noticias
+*/
+.news {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    padding: 40px 20px;
+    background-color: var(--color-fondo);
+}
+
+.news-card {
+    background-color: var(--blanco);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px;
+    text-align: center;
+}
+
+.news-card h3 {
+    margin-bottom: 10px;
+}
+
+.news-card a {
+    color: var(--color-principal);
+    text-decoration: none;
+    font-weight: bold;
+}
