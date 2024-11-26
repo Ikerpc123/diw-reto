@@ -3,13 +3,14 @@
 */
 
 :root {
-    --color-principal: #1F618D;
-    --color-secundario: #5DADE2;
-    --color-terciario: #16A085;
-    --color-fondo: #E5E8E8;
+    --color-principal: #34495E;
+    --color-secundario: #1ABC9C;
+    --color-terciario: #A6B853;
+    --color-fondo: #F4D03F;
     --blanco: white;
     --gris: #7D7D7D;
     --sombra: rgba(0, 0, 0, 0.1);
+    --hover-boton: #7d8b3f;
 }
 
 body {
