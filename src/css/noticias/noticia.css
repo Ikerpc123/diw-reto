@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: var(--fuente-principal);
     background-color: var(--color-fondo);
     color: var(--gris);
     line-height: 1.6;
