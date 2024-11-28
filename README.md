@@ -1,8 +1,4 @@
-# Rama de la página de contacto
-
-Esta rama será mergeada con los colores especificos de cada restaurante.
-=======
-[TOC]
+# RETO 1º TRIMESTRE - GoGoGoGoGo Food Company
 
 Se trabajará por ramas, en cada rama principal habrá un sitio web con sus 5 páginas. Los nombres de las ramas principales seran:
 - ``main`` esta rama no se editara en ningun momento.
