@@ -5,7 +5,6 @@
 }
 
 body {
-    font-family: var(--fuente-principal);
     background-color: var(--color-fondo);
     color: var(--gris);
     line-height: 1.6;
@@ -39,7 +38,6 @@ body {
     border-bottom: 2px solid var(--color-secundario);
     padding-bottom: 10px;
     text-transform: capitalize;
-    font-family: var(--fuente-secundaria);
 }
 
 .imagennoticia {
