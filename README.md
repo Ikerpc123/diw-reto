@@ -23,6 +23,6 @@ Todas las páginas serán iguales entre si, lo único que cambia son los colores
 
 - Index -> Iker
 - Menu -> Pelayo
-- Noticias
+- Noticias -> Alvaro y Pelayo
 - Localización -> Guillermo
 - Contacto -> Álvaro
