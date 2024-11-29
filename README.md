@@ -1,3 +1,3 @@
-# Rama de la página de contacto
+# Rama para GoEste
 
-Esta rama será mergeada con los colores especificos de cada restaurante.
+Esta rama no se editará, se crearan ramas de funcionalidad a partir de esta.
