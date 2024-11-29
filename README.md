@@ -11,9 +11,9 @@ Se trabajará por ramas, en cada rama principal habrá un sitio web con sus 5 p�
 ## Componentes compartidos
 
 Todas las páginas serán iguales entre si, lo único que cambia son los colores. Además, con un único diseño de footer y barra de navegacion sobra, tambien son iguales en todas las páginas.
- - nav : hacer copy paste de un html que lo contenga, los css se deberian de aplicar solos.
- - footer : hacer copy paste de un html que lo contenga, los css se deberian de aplicar solos.
- - en go[nombre del sitio] : se encuentran definidas todas las variables usadas en el sitio.
+ - nav : css y html comun en todas las páginas.
+ - footer : css y html comun en todas las páginas.
+ - en go[nombre del sitio] : se encuentran definidas todas las variables usadas en el sitio, revisar antes de aplicar colores.
  
 ## División de páginas web
 
