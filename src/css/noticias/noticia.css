@@ -5,9 +5,8 @@
 }
 
 body {
-    font-family: var(--fuente-principal);
     background-color: var(--color-fondo);
-    color: var(--gris);
+    color: black;
     line-height: 1.6;
 }
 
@@ -39,7 +38,6 @@ body {
     border-bottom: 2px solid var(--color-secundario);
     padding-bottom: 10px;
     text-transform: capitalize;
-    font-family: var(--fuente-secundaria);
 }
 
 .imagennoticia {
@@ -58,7 +56,7 @@ body {
 #contenido {
     margin-top: 20px;
     font-size: 1.1rem;
-    color: var(--gris);
+    color: black;
     line-height: 1.8;
     text-align: justify;
 }
@@ -71,7 +69,7 @@ body {
 #pie {
     margin-top: 20px;
     font-size: 0.9rem;
-    color: var(--gris);
+    color: black;
     text-align: right;
     font-style: italic;
     padding-top: 10px;

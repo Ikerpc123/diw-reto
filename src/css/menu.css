@@ -4,7 +4,6 @@
     text-align: center;
     padding: 4rem 2rem;
     background: linear-gradient(to bottom, var(--color-fondo-claro), var(--color-fondo-dos));
-    font-family: var(--fuente-principal);
 }
 
 #carta h2 {

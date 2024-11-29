@@ -1,5 +1,4 @@
 body {
-    font-family: var(--fuente-principal);
     background-color: var(--color-fondo);
     margin: 0;
     padding: 0;
@@ -36,7 +35,7 @@ body {
 }
 
 .noticia {
-    background: var(--blanco);
+    background: white;
     margin: 30px auto;
     padding: 0;
     width: 90%;
@@ -60,14 +59,14 @@ body {
 
 .noticia p {
     padding: 0 20px 20px 20px;
-    color: var(--gris);
+    color: black;
     font-size: 1rem;
     line-height: 1.6;
 }
 
 .noticia button {
-    background-color: var(--color-secundario);
-    color: var(--blanco);
+    background-color: var(--color-principal);
+    color: white;
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
@@ -79,7 +78,7 @@ body {
 
 .noticia button a {
     text-decoration: none;
-    color: var(--blanco);
+    color: white;
 }
 
 .noticia button:hover {
