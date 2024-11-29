@@ -38,7 +38,6 @@ body {
     border-bottom: 2px solid var(--color-secundario);
     padding-bottom: 10px;
     text-transform: capitalize;
-    font-family: var(--fuente-secundaria);
 }
 
 .imagennoticia {
