@@ -17,8 +17,9 @@ Todas las páginas serán iguales entre si, lo único que cambia son los colores
  
 ## División de páginas web
 
-- Index -> Iker
-- Menu -> Pelayo
+- Index
+- Menu
 - Noticias
-- Localización -> Guillermo
-- Contacto -> Álvaro
+- Localización
+  - Página de una noticia especifica
+- Contacto
